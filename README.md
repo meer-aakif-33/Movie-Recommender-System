@@ -57,8 +57,6 @@ movie-recommender/
 │── README.md                   # Project Documentation
 │── Machine Learning/
 │   │── movie_recommender.ipynb # Jupyter Notebook (Data Processing)
-│   
-│   
 ```
 
 ## How It Works
