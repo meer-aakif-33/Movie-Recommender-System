@@ -8,7 +8,7 @@ import requests
 
 # Load API Token from .env
 load_dotenv()
-ACCESS_TOKEN = os.getenv("TMDB_ACCESS_TOKEN")
+ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNTM3OTQ3ODg4ZjQ5YzM2NDIxNzc1YTg4MTQzYjk1OCIsIm5iZiI6MTcyMzM0Njg5MC4wNjgsInN1YiI6IjY2YjgyZmNhNjI0YmRiZDNhMDFkZGU3ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.O7W9vuByVcADrAaxJUekvrNSVLPCm2WHTxaLEsJ2Zcs'
 
 if not ACCESS_TOKEN:
     raise ValueError("TMDB_ACCESS_TOKEN is missing. Check your .env file.")
