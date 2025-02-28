@@ -84,16 +84,6 @@ if st.button('Recommendation'):
             st.write(description)  # Movie description
             st.markdown("---")  # Adds a horizontal line for separation
             
-# import streamlit as st
-# import pickle
-# import pandas as pd
-
-# import os
-# from dotenv import load_dotenv
-# import requests
-
-# # Load API Token from .env
-# load_dotenv()
 # ACCESS_TOKEN = os.getenv("TMDB_ACCESS_TOKEN")
 
 # if not ACCESS_TOKEN:
