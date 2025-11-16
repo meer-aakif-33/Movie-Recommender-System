@@ -1,7 +1,7 @@
 # Movie Recommender System
 
 ## Overview
-This project is a **Movie Recommender System** built using **Python**, **Machine Learning**, and **Streamlit**. It suggests movies similar to a selected movie based on content similarity using **NLP techniques** and **cosine similarity**. Additionally, it fetches movie details (posters and descriptions) from **The Movie Database (TMDB) API** to enhance the recommendations.
+This project is a **Movie Recommender System** built using **Python**, **Machine Learning**, and **Streamlit**. It suggests movies similar to a selected movie based on content similarity using **content-based (TF-IDF + cosine similarity) and collaborative filtering**. Additionally, it fetches movie details (posters and descriptions) from **The Movie Database (TMDB) API** to enhance the recommendations.
 
 ## Features
 - Content-based recommendation system using **cosine similarity**.
